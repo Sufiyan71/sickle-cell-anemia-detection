@@ -1,6 +1,3 @@
-Here's a sample **README.md** text for your Sickle Cell Detection project:
-
----
 
 # Sickle Cell Detection Using InceptionV3
 
