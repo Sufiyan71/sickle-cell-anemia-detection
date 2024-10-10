@@ -1,0 +1,70 @@
+/* Container for the upload section */
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 80px; /* To ensure the section starts beneath the navbar */
+    background-color: transparent; /* Transparent background */
+    padding-top: 60px; /* Additional space beneath navbar */
+}
+
+/* Drop area for the file upload */
+.file-drop-area {
+    width: 500px; /* Wider area for file upload */
+    height: 250px;
+    border: 2px dotted #aaa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Slight blur for background effect */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.file-drop-area:hover {
+    border-color: #575757; /* Hover effect similar to navbar */
+}
+
+/* Invisible file input */
+.file-input {
+    display: none;
+}
+
+/* Styling the label */
+.file-upload-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Upload icon */
+.upload-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Submit button */
+.submit-btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #575757; /* Similar hover effect to navbar */
+}
